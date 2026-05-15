@@ -19,17 +19,17 @@ def is_palindrome(s):
     return s == reverse_string(s)
 
 #4 remove duplicates from a list
-def remove_duplicate(list):
+def remove_duplicate(lst):
     result = []
-    for item in list:
+    for item in lst:
         if item not in result:
             result.append(item)
     return result
 
 #5 calculate frequencies in a list
-def calculate_frequencies(list):
+def calculate_frequencies(lst):
     freq = {}
-    for item in list:
+    for item in lst:
         if item in freq:
             freq[item] += 1
         else:

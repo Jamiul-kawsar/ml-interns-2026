@@ -19,10 +19,10 @@ print(type(good))
 
 
 # unsorted list
-list = [5, 2, 9, 1, 5, 6]
-print("Unsorted list:", list)
-print(type(list))
-print(sorted(list))
+m_list = [5, 2, 9, 1, 5, 6]
+print("Unsorted list:", m_list)
+print(type(m_list))
+print(sorted(m_list))
 print(sorted(arr))
 
 # tupple 
@@ -30,14 +30,14 @@ tup = (1, 2, 3, 4, 5)
 print("Tupple: ", tup)
 
 # set 
-set = {1, 2, 3, 4,4,5, 5}
-print("Set: ", set)
-set.pop()
-print("Set after popping an element: ", set)
-set.add(6)
-print("Set after adding an element: ", set)
-set.remove(2)
-print("Set after removing an element: ", set)
+m_set = {1, 2, 3, 4,4,5, 5}
+print("Set: ", m_set)
+m_set.pop()
+print("Set after popping an element: ", m_set)
+m_set.add(6)
+print("Set after adding an element: ", m_set)
+m_set.remove(2)
+print("Set after removing an element: ", m_set)
 
 # dict using for mapping
 
